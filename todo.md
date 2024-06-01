@@ -3,6 +3,8 @@ This is the document where I keep track of the next and upcoming goals
 
 # To do list
 ## Setup Back-end
+- [ ] Start again from scratch
+- [ ] Write documentation to setup if no available source exists
 - [ ] Setup .NET Backend Azure Function App
 - [ ] Functioning Backend that host a simple hello world endpoint
 
