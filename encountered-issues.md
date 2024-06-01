@@ -25,6 +25,9 @@ The system cannot find the file specified.
 This happened because I created the Azure Function project with `Functions runtime: default worker`.
 This was resolved when I choose `Functions runtime: isolated worker` instead.
 
+According to Microsoft documentation, there are 2 execution models `isolated worker` and `in-process`. Rider refers to the `in-process` one as the `default`.
+There are pros and cons to each and the details can be found here at https://learn.microsoft.com/en-us/azure/azure-functions/dotnet-isolated-in-process-differences
+
 # Cannot resolve symbol 'ConfigureFunctionsWebApplication'
 ```
 0>Program.cs(6,6): Error CS1061 : 'HostBuilder' does not contain a definition 
