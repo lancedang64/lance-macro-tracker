@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "Lance.LanceMacroTrackerFunctionApp": {
+    "Lance.MacroTrackerFunctionApp": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7269",
+      "commandLineArgs": "--port 7196",
       "launchBrowser": false
     }
   }
