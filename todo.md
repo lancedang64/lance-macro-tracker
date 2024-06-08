@@ -10,9 +10,12 @@ This is the document where I keep track of the next and upcoming goals
 - [x] Functioning Backend that host a simple hello world endpoint
 
 ## Business logic
-- [ ] Sign up endpoint
-- [ ] Sign up handler logic
+### Sign up
+- [ ] Solution design
+- [ ] Tech spec
+- [ ] Implementation
 
+### Login
 - [ ] Log in
 - [ ] Main business logic: Macro tracker
 
