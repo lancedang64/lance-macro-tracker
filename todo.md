@@ -3,11 +3,18 @@ This is the document where I keep track of the next and upcoming goals
 
 # To do list
 ## Setup Back-end
-- [ ] Start again from scratch
-- [ ] Can even try older version of dotnet (not preferred)
-- [ ] Write documentation to setup if no available source exists
-- [ ] Setup .NET Backend Azure Function App
-- [ ] Functioning Backend that host a simple hello world endpoint
+- [x] Start again from scratch
+- [x] Can even try older version of dotnet (not preferred)
+- [x] Write documentation to setup if no available source exists
+- [x] Setup .NET Backend Azure Function App
+- [x] Functioning Backend that host a simple hello world endpoint
+
+## Business logic
+- [ ] Sign up endpoint
+- [ ] Sign up handler logic
+
+- [ ] Log in
+- [ ] Main business logic: Macro tracker
 
 ## Setup Front-end
 - [ ] Setup Expo App
@@ -20,10 +27,3 @@ This is the document where I keep track of the next and upcoming goals
 - [ ] Deploy backend up
 - [ ] Create dev app build 
 - [ ] End-to-end test
-
-## Business logic
-- [ ] Sign up endpoint
-- [ ] Sign up handler logic
-
-- [ ] Log in
-- [ ] Main business logic: Macro tracker
