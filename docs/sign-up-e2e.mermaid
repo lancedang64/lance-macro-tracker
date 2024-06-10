@@ -1,0 +1,27 @@
+zenuml
+
+title User Sign Up Journey e2e - Happy Path
+@Actor user as User
+@client fe as "Front End"
+@AzureFunction be as "Back End" 
+@Database db as "Database"
+
+user->fe."Click on sign up button" {
+	return "Render sign up form"
+}
+
+user->fe."Enter details and submit" {
+	fe->be."POST /users" {
+        // validation rules omitted for brevity
+        be->be.validateUserCreation()
+        if("validation failure") {
+            return "422 Error"
+        } else {
+            be->db."Create record" {
+                return "success"
+            }
+		    return "200 OK"
+        }
+	}
+    return "success indication"
+}
