@@ -11,9 +11,12 @@ This is the document where I keep track of the next and upcoming goals
 
 ## Business logic
 ### Sign up
-- [ ] Solution design
-- [ ] Tech spec
+- [x] Solution design
+- [x] Tech spec
 - [ ] Implementation
+  - [ ] Request Validation logic
+    - [ ] Request Payload Validation logic
+    - [ ] Check User already exists in DB
 
 ### Login
 - [ ] Log in

@@ -6,24 +6,23 @@ title POST User Sign Up endpoint
 @Database db as "Database"
 
 be."POST /users" {
-    be.validateUserCreation() {
-        areInputsValid() {
+    be."Validate User Creation" {
+        "Is request content valid?" {
             // rules:
             // - Inputs are not SQL injection
             // - First name is valid
             // - Email is valid
             return
         }
-        isUserAlreadyExists() {
+        "Is user already registered?" {
             be->db."query if record exists" { return result }
         }
     }
     if("validation failure") { return "422 Error" }
     else {
-        createUser() {
+        "Create user" {
             be->db."Create record" { return "success" }
         }
-        dispatchUserCreatedEvent()
         return "200 OK"
     }
 }
